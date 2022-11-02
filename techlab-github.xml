@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Common repositories -->
+    <include name="xilinx.xml"/>
+
+    <!-- Special repositories -->
+    <remote name="msktechvcs"  fetch="ssh://git@github.com/MicroTCA-Tech-Lab"/>
+
+    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-utils" path="sources/meta-techlab-utils"/>
+    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-bsp"   path="sources/meta-techlab-bsp"/>
+    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-demo"  path="sources/meta-techlab-demo"/>
+
+</manifest>
