@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="msktechvcs" fetch="ssh://git@msktechvcs.desy.de/techlab/software/yocto-layers/"/>
+  <remote name="xilinx" fetch="https://github.com/Xilinx"/>
+  
+  <default sync-j="4"/>
+  
+  <project name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="ad13d59c9db4b6979f8c05c200a97475eb94d692" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="eb9ce0967a6d14707c7b33d487e5fae35088ef8e" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-linaro" path="sources/meta-linaro" remote="xilinx" revision="8fa21d2e7d5102f580d65c925e74c5c4481c7291" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="fa7b4ca913d2c9caf618d7355ae78cbf4c882827" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="3894fa0f3d0ab2ec2debb4fff7e117d5c8ce35ea" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="aa649aeeecab1969f168d6c89753f86208a8fdb9" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="ef895be94f61e3f315701b0120497dde556136bf" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="432ad2aa6c3a13253fefc909faba368851d21fb1" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-techlab-bsp" path="sources/meta-techlab-bsp" remote="msktechvcs" revision="51a628ed8cc7fa48263c6a926869d2d93cdf9144" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-techlab-demo" path="sources/meta-techlab-demo" remote="msktechvcs" revision="581ccf128ba2f71bddc1a10da268d3aa59cbd7e9" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-techlab-utils" path="sources/meta-techlab-utils" remote="msktechvcs" revision="e2669900dcc8259913e3cfe958039eecc82d52fe" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="e5ee8bf32d6ad39d67ec9c02d52ba39148a31b66" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-vitis-ai" path="sources/meta-vitis-ai" remote="xilinx" revision="e24ef77f2363b142c78484c8ac181998f9386c15" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="e32c768b7e30c2f949b0b98e807afe82ac213556" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="f2de39704de069af393212f5cc2f34bf02870c49" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="poky" path="sources/core" remote="xilinx" revision="a453ccc9c7c8ba61436b5fc3745b26688b972f25" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="dae6456cd29248ff6e01466e6691c259e7d72c9a" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+  <project name="yocto-scripts" path="." remote="xilinx" revision="7c2e51bc4f315b70707b7d504a469e5f10a9808f" upstream="rel-v2020.2" dest-branch="rel-v2020.2"/>
+</manifest>
