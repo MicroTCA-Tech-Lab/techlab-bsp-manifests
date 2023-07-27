@@ -7,8 +7,8 @@
     <!-- Special repositories -->
     <remote name="msktechvcs"  fetch="https://github.com/MicroTCA-Tech-Lab"/>
 
-    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-utils" path="sources/meta-techlab-utils"/>
-    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-bsp"   path="sources/meta-techlab-bsp"/>
-    <project remote="msktechvcs" revision="rel-v2020.2" name="meta-techlab-demo"  path="sources/meta-techlab-demo"/>
+    <project remote="msktechvcs" revision="rel-v2021.2" name="meta-techlab-utils" path="sources/meta-techlab-utils"/>
+    <project remote="msktechvcs" revision="rel-v2021.2" name="meta-techlab-bsp"   path="sources/meta-techlab-bsp"/>
+    <project remote="msktechvcs" revision="rel-v2021.2" name="meta-techlab-demo"  path="sources/meta-techlab-demo"/>
 
 </manifest>

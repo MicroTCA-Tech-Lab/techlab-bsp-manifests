@@ -22,3 +22,4 @@ Currently supported boards:
 | DAMC-FMC1Z7IO        | Rev. A                   | `damc-fmc1z7io-rev-a`   |
 | DAMC-FMC1Z7IO        | Rev. B                   | `damc-fmc1z7io`         |
 | DAMC-FMC2ZUP         | Rev. A, B                | `damc-fmc2zup`          |
+| DAMC-MOTCTRL         | Rev. A                   | `damc-motctrl`          |
