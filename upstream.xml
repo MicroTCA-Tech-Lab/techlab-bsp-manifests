@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/kraj" name="kraj"/>
+  <remote fetch="https://git.yoctoproject.org" name="yp"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+
+  <default sync-j="4"/>
+  
+  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="honister"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="yp" revision="honister"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="honister"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="oe" revision="honister"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="qt5" revision="honister"/>
+  <project name="meta-security" path="sources/meta-security" remote="yp" revision="honister"/>
+  <project name="openembedded-core" path="sources/core" remote="oe" revision="honister"/>
+  <project name="meta-yocto" path="sources/meta-yocto" remote="yp" revision="honister"/>
+  <project name="bitbake" path="sources/bitbake" remote="oe" revision="yocto-3.4.4"/>
+</manifest>

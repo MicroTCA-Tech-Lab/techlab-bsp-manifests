@@ -2,6 +2,7 @@
 <manifest>
 
     <!-- Common repositories -->
+    <include name="upstream.xml"/>
     <include name="xilinx.xml"/>
 
     <!-- Special repositories -->
