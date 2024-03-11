@@ -12,7 +12,7 @@
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="yocto-3.4.4"/>
   <project name="meta-security" path="sources/meta-security" remote="yp" revision="langdale"/>
 -->
-  <project name="poky" path="sources/core" remote="yp" revision="langdale"/>
+  <project name="poky" path="sources/poky" remote="yp" revision="langdale"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="langdale"/>
 
   <!-- required for lopper -->
