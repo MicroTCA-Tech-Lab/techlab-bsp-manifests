@@ -4,8 +4,6 @@
   <remote fetch="https://git.yoctoproject.org" name="yp"/>
   <remote fetch="https://github.com" name="github"/> 
 
-  <default revision="honister" sync-j="4"/>
-  
 <!--
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="honister"/>
   <project name="meta-mingw" path="sources/meta-mingw" remote="yp" revision="honister"/>
@@ -17,5 +15,5 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"/>
   <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github"/>
 -->
-  <project name="poky" path="sources/poky" remote="yp"/>
+  <project name="poky" path="sources/poky" remote="yp" revision="honister"/>
 </manifest>

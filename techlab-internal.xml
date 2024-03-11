@@ -7,10 +7,9 @@
 
     <!-- Special repositories -->
     <remote name="msktechvcs"  fetch="ssh://git@msktechvcs.desy.de/techlab/software/yocto-layers/"/>
-    <default revision="rel-v2022.2" sync-j="4"/>
 
-    <project remote="msktechvcs" name="meta-techlab-utils" path="sources/meta-techlab-utils"/>
-    <project remote="msktechvcs" name="meta-techlab-bsp"   path="sources/meta-techlab-bsp"/>
-    <project remote="msktechvcs" name="meta-techlab-demo"  path="sources/meta-techlab-demo"/>
+    <project remote="msktechvcs" revision="rel-v2022.2" name="meta-techlab-utils" path="sources/meta-techlab-utils"/>
+    <project remote="msktechvcs" revision="rel-v2022.2" name="meta-techlab-bsp"   path="sources/meta-techlab-bsp"/>
+    <project remote="msktechvcs" revision="rel-v2022.2" name="meta-techlab-demo"  path="sources/meta-techlab-demo"/>
 
 </manifest>

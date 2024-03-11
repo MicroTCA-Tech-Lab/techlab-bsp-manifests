@@ -2,15 +2,14 @@
 <manifest>
   <remote fetch="https://github.com/Xilinx" name="xilinx"/>
   
-  <default revision="rel-v2022.2" sync-j="4"/>
-  
-  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx"/>
-  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx"/>
-  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx"/>
-  <project name="meta-vitis" path="sources/meta-vitis" remote="xilinx"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="rel-v2022.2"/>
+   
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-vitis" path="sources/meta-vitis" remote="xilinx" revision="rel-v2022.2"/>
 
-  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx">
+  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="rel-v2022.2">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
 </manifest>
