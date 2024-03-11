@@ -5,20 +5,20 @@
   <remote fetch="https://github.com" name="github"/> 
 
 <!--
-  <project name="meta-mingw" path="sources/meta-mingw" remote="yp" revision="honister"/>
-  <project name="meta-python2" path="sources/meta-python2" remote="oe" revision="honister"/>
-  <project name="openembedded-core" path="sources/core" remote="oe" revision="honister"/>
-  <project name="meta-yocto" path="sources/meta-yocto" remote="yp" revision="honister"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="yp" revision="langdale"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="oe" revision="langdale"/>
+  <project name="openembedded-core" path="sources/core" remote="oe" revision="langdale"/>
+  <project name="meta-yocto" path="sources/meta-yocto" remote="yp" revision="langdale"/>
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="yocto-3.4.4"/>
-  <project name="meta-security" path="sources/meta-security" remote="yp" revision="honister"/>
+  <project name="meta-security" path="sources/meta-security" remote="yp" revision="langdale"/>
 -->
-  <project name="poky" path="sources/core" remote="yp" revision="honister"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="honister"/>
+  <project name="poky" path="sources/core" remote="yp" revision="langdale"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="langdale"/>
 
   <!-- required for lopper -->
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yp" revision="honister"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yp" revision="langdale"/>
 
   <!-- petalinux breaks the build if clang / qt5 is not present -->
-  <project name="kraj/meta-clang" path="sources/meta-clang" remote="github" revision="honister"/>
-  <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="honister"/>
+  <project name="kraj/meta-clang" path="sources/meta-clang" remote="github" revision="langdale"/>
+  <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="langdale"/>
 </manifest>
