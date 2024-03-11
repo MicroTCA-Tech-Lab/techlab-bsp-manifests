@@ -15,6 +15,9 @@
   <project name="poky" path="sources/core" remote="yp" revision="honister"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="honister"/>
 
+  <!-- required for lopper -->
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yp" revision="honister"/>
+
   <!-- petalinux breaks the build if clang / qt5 is not present -->
   <project name="kraj/meta-clang" path="sources/meta-clang" remote="github" revision="honister"/>
   <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="honister"/>
