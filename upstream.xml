@@ -15,5 +15,5 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"/>
   <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github"/>
 -->
-  <project name="poky" path="sources/poky" remote="yp" revision="honister"/>
+  <project name="poky" path="sources/core" remote="yp" revision="honister"/>
 </manifest>
