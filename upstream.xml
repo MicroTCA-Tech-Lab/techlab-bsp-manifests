@@ -12,8 +12,8 @@
   <project name="meta-yocto" path="sources/meta-yocto" remote="yp" revision="honister"/>
   <project name="bitbake" path="sources/bitbake" remote="oe" revision="yocto-3.4.4"/>
   <project name="meta-security" path="sources/meta-security" remote="yp" revision="honister"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"/>
   <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github"/>
 -->
   <project name="poky" path="sources/core" remote="yp" revision="honister"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="honister"/>
 </manifest>
