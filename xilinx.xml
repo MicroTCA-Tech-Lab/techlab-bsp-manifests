@@ -12,4 +12,7 @@
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="rel-v2022.2">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
+
+  <!-- petalinux breaks the build if meta-browser is not present -->
+  <project name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="rel-v2022.2"/>
 </manifest>
